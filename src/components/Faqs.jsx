@@ -5,10 +5,10 @@ const AccordionItem = ({ handleToggle, active, faq }) => {
     const { title, id, content } = faq;
 
     return (
-        <div className="accordion-card overflow-hidden border-b border-[#DDDDDF]">
-            <div className="rc-accordion-header py-5 px-4">
+        <div className="overflow-hidden border-b border-[#DDDDDF]">
+            <div className="py-5 px-4">
                 <div role="button" aria-expanded={active === id} aria-controls={`content-${id}`}
-                    className={`rc-accordion-toggle flex items-center cursor-pointer justify-between p-0 transition-[0.3s] ${active === id ? 'active' : ''}`}
+                    className={`rc-accordion-toggle flex items-baseline cursor-pointer justify-between p-0 transition-[0.3s] ${active === id ? 'active' : ''}`}
                     onClick={() => handleToggle(id)}>
 
                     <p className="font-poppins font-medium text-[18px] leading-6 text-dark-blue">{title}</p>
@@ -62,10 +62,6 @@ const Faqs = () => {
             content: 'By analyzing your sales velocity and growth potential.',
         },
     ];
-
-    const getCurrentYear = () => {
-        return new Date().getFullYear();
-    };
 
     return (
         <div className="overflow-hidden bg-cream pt-[70px] pb-[60px] max-lg:pt-[60px]" >

@@ -12,7 +12,7 @@ function App() {
     <div>
       <HeroSection />
       <Platform />
-      {/* <Revenue /> */}
+      <Revenue />
       <Growth />
       <Faqs />
       <Become />
