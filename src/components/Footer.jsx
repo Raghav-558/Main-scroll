@@ -14,7 +14,7 @@ const Footer = () => {
                         <a href="#logo">
                             <img src={logo} alt="logo" className='h-11' />
                         </a>
-                        <p className='font-poppins max-w-[163px] font-medium text-sm leading-[22px] text-[#76767F] max-md:pt-[15px] uppercase'>8fig, 1717 W 6th St, Austin, Texas</p>
+                        <p className='font-poppins max-w-[163px] font-medium text-sm leading-[22px] text-custum-gray max-md:pt-[15px] uppercase'>8fig, 1717 W 6th St, Austin, Texas</p>
                     </div>
                     <p className='font-poppins font-medium text-sm leading-[22px] text-[#76767F] max-lg:hidden uppercase'>© {getCurrentYear()} 8fig - All Rights Reserved</p>
                     <div className='flex items-center gap-9 max-md:gap-6 max-md:-translate-y-3'>
@@ -44,7 +44,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <p className="text-[#76767F] text-sm leading-[22px] font-medium font-poppins text-center lg:hidden pt-[60px] max-md:text-xs max-md:leading-5">
+                <p className="text-custum-gray text-sm leading-[22px] font-medium font-poppins text-center lg:hidden pt-[60px] max-md:text-xs max-md:leading-5">
                     © {getCurrentYear()} 8FIG - ALL RIGHTS RESERVED
                 </p>
             </div>

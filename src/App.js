@@ -3,14 +3,14 @@ import Become from './components/Become';
 import Faqs from './components/Faqs';
 import Footer from './components/Footer';
 import Growth from './components/Growth';
-import HeroSection from './components/HeroSection';
+import Hero from './components/Hero';
 import Platform from './components/Platform';
 import Revenue from './components/Revenue';
 
 function App() {
   return (
     <div>
-      <HeroSection />
+      <Hero />
       <Platform />
       <Revenue />
       <Growth />
